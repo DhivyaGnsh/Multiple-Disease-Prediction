@@ -4,13 +4,13 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Load pre-trained models
-with open('C:/Users/Mukesh/Downloads/parkinsons_model (2).pkl', 'rb') as file:
+with open('parkinsons_model (2).pkl', 'rb') as file:
     parkinsons_model = pickle.load(file)
 
-with open('C:/Users/Mukesh/Downloads/kidney_disease_model.pkl', 'rb') as file:
+with open('kidney_disease_model.pkl', 'rb') as file:
     kidney_model = pickle.load(file)
 
-with open('C:/Users/Mukesh/Downloads/liver_disease_model (1).pkl', 'rb') as file:
+with open('liver_disease_model (1).pkl', 'rb') as file:
     liver_model = pickle.load(file)
 
 # Streamlit App Title
